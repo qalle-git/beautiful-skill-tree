@@ -62,6 +62,8 @@ function SkillNode({
   }
 
   function handleClick() {
+    console.log(`clicked on ${skill}`);
+
     if (nodeState === LOCKED_STATE) {
       return null;
     }
